@@ -1,0 +1,16 @@
+.Button {
+	font-family: 'ofontu';
+	background-color: transparent;
+	color: #e4dbec;
+	-o-border-image: linear-gradient(40deg, #7000FF, #AD00FF);
+	border-image: linear-gradient(40deg, #7000FF, #AD00FF);
+	border-image-slice: 1;
+	padding: 0.2em 2.0em;
+	height: 2em;
+}
+
+.Button:hover {
+	background: linear-gradient(130deg, #8000FF 35%, #BD00FF);
+	transform: skewX(14deg);
+
+}

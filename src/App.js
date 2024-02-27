@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Headers from './Components/Header/Header.jsx'
+import Main from './Components/Main/Main.jsx';
+import classes from './app.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<Headers></Headers>
+			<Main
+				title={'lostweyn'}
+				description={'Lostweyn - Проект созданный двумя людьми, Среди которых: Чел который выдаёт себя за программиста, чел который Сис.Админ. Мы просто пытаемся сделать что-то крутое! Наша цель - собрать ламповое окружение, где всем будет приятно находится и общаться! Хоть мы ещё и многое не умеем, хоть где-то у нас что-то не получается, но мы постоянно прокачиваем свои навыки, и будем удивлять вас понастоящему крутыми вещами! Надеюсь тебе тут понравится :)'}
+			></Main>
+		</div>
+	);
 }
 
 export default App;
